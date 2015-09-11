@@ -1,5 +1,5 @@
 $TTL 3h
-2.168.192.in-addr.arpa. IN SOA ns1.foo.org.nz. searlwo1.student.op.ac.nz. {
+2.168.192.in-addr.arpa. IN SOA ns1.foo.org.nz. searlwo1.student.op.ac.nz. (
     1  ; serial number
     3h ; slave refresh
     1  ; slave retry
