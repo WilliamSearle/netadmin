@@ -21,7 +21,9 @@ router2.foo.org.nz. IN A 192.168.2.2
 win-relay.foo.org.nz. IN A 192.168.2.101
 linux-client.foo.org.nz. IN A 172.16.5.12
 
-www.foo.org.nz IN CNAME bsd-server
+www.foo.org.nz. IN CNAME bsd-server
+ns1.foo.org.nz. IN CNAME bsd-server
+ns2.foo.org.nz. IN CNAME bsd-server
 
 foo.org.nz. IN MX 10 bsd-server.foo.org.nz.
 foo.org.nz. IN MX 20 bsd-relay.foo.org.nz.
